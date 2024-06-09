@@ -4,5 +4,6 @@ plugins {
 
 rootProject.name = 'zettai'
 include('app')
+include('hello')
 include('list')
 include('utilities')
