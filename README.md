@@ -1,9 +1,55 @@
 ## An Application by Kotlin and IntelliJ IDEA
 
-[1]: https://github.com/http4k/http4k
-[2]: https://github.com/http4k/http4k-by-example
-[3]: https://github.com/http4k/examples
-[4]: https://www.http4k.org/documentation/
-[5]: https://www.geeksforgeeks.org/how-to-install-intellij-idea-on-arch-based-linux-distributionsmanjaro/
+ [1]: https://github.com/http4k/http4k
+ [2]: https://github.com/http4k/http4k-by-example
+ [3]: https://github.com/http4k/examples
+ [4]: https://www.http4k.org/documentation/
+ [5]: https://www.geeksforgeeks.org/how-to-install-intellij-idea-on-arch-based-linux-distributionsmanjaro/
+ [6]: https://ktor.io/docs/server-testing.html
+ [7]: https://api.ktor.io/ktor-server/ktor-server-test-host/io.ktor.server.testing/test-application.html
+ [8]: https://www.baeldung.com/kotlin/http4k-intro
+ [9]: https://www.baeldung.com/kotlin/khttp
+[10]: https://www.baeldung.com/kotlin/fuel
+[11]: https://github.com/Baeldung/kotlin-tutorials/tree/master
+[12]: https://ktor.io/docs/welcome.html
+[13]: https://habr.com/ru/articles/705480/
+[14]: https://github.com/ktorio/ktor-documentation
+[15]: https://ktor.io/docs/welcome.html
+[16]: https://ktor.io/docs/server-create-a-new-project.html
+[17]: https://medium.com/@chaewonkong/ktor-the-next-generation-framework-that-might-replace-spring-boot-868e8d21fc0f
+[18]: https://github.com/ktorio/ktor-documentation/tree/2.3.11/codeSnippets/snippets
+[19]: https://dev.to/rogervinas/ktor-top-5-server-side-frameworks-for-kotlin-in-2022-149a
+[20]: https://dev.to/yashagozwan/kotlin-basics-5ebk
+[21]: https://dev.to/nadirbasalamah/kotlin-tutorial-1-introduction-3i6m
+[22]: https://dev.to/nadirbasalamah/kotlin-tutorial-2-control-flow-condition-selection-3h88
+[23]: https://dev.to/nadirbasalamah/kotlin-tutorial-3-control-flow-iteration-44m3
+[24]: https://dev.to/nadirbasalamah/kotlin-tutorial-4-built-in-data-structures-1n1n
+[25]: https://dev.to/nadirbasalamah/kotlin-tutorial-5-function-4ikb
+[26]: https://dev.to/nadirbasalamah/kotlin-tutorial-5-function-4ikb
+[27]: https://dev.to/nadirbasalamah/kotlin-tutorial-7-class-and-object-l0k
+[28]: https://dev.to/nadirbasalamah/kotlin-tutorial-8-inheritance-537b
+[29]: https://dev.to/nadirbasalamah/kotlin-tutorial-9-polymorphism-43l5
+[30]: https://dev.to/asvid/kotlin-abstract-factory-gcc
+[31]: https://dev.to/asvid/kotlin-factory-method-43en
+[32]: https://swiderski.tech/kotlin-static-factory-methods/
+[33]: https://dev.to/search?utf8=%E2%9C%93&q=Kotlin
+[34]: https://dev.to/asvid/kotlin-static-factory-methods-ko9
+[35]: https://micronaut.io/
+[36]: https://docs.micronaut.io/4.5.3/guide/
+[37]: https://habr.com/ru/articles/418117/
+[38]: https://blog.gikken.co/kotlin-jersey-jetty-mongodb-creating-a-restful-api/
+[39]: https://mkyong.com/webservices/jax-rs/jersey-and-jetty-http-server-examples/
+[40]: https://github.com/christierney/kotlin-jetty-jersey-example
+[41]: https://github.com/jetty/jetty-examples
+[42]: https://github.com/jetty/jetty.docker/issues/49
+[43]: https://www.http4k.org/guide/howto/use_a_server_backend/
+[44]: https://www.http4k.org/guide/tutorials/tdding_http4k/_1
+[45]: https://www.http4k.org/guide/tutorials/tdding_http4k/_2
+[46]: https://www.http4k.org/guide/tutorials/tdding_http4k/_3
+[47]: https://www.http4k.org/guide/tutorials/tdding_http4k/_4/
+[48]: https://jetty.org/docs/index.html
+[49]: https://github.com/http4k/http4k
+[50]: https://github.com/http4k/examples/tree/master
+[51]: https://kotlin.libhunt.com/graphql-kotlin-alternatives
 
 #### 1 June 2024 by Oleg G.Kapranov

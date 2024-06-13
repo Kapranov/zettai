@@ -6,5 +6,6 @@ rootProject.name = 'zettai'
 include('app')
 include('hello')
 include('list')
+include('stage_http')
 include('utilities')
 include('welcome')
