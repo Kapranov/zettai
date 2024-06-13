@@ -1,0 +1,24 @@
+plugins {
+  id 'buildlogic.kotlin-application-conventions'
+}
+
+repositories {
+  mavenCentral()
+}
+
+kotlin {
+  jvmToolchain(11)
+}
+
+dependencies {
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:${stdlibVersion}"
+  testImplementation "io.strikt:strikt-core:${striktVersion}"
+  testImplementation "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+  testRuntimeOnly "org.junit.platform:junit-platform-launcher:${junitLauncherVersion}"
+}
+
+tasks {
+  test {
+    useJUnitPlatform()
+  }
+}

@@ -1,0 +1,42 @@
+plugins {
+  id 'java-library'
+  id 'buildlogic.kotlin-application-conventions'
+}
+
+repositories {
+  mavenCentral()
+}
+
+kotlin {
+  jvmToolchain(11)
+}
+
+dependencies {
+  implementation platform("org.http4k:http4k-bom:${http4kVersion}")
+  implementation "io.ktor:ktor-server-core:${ktorVersion}"
+  implementation "io.ktor:ktor-server-netty:${ktorVersion}"
+  implementation "org.http4k:http4k-core"
+  implementation "org.http4k:http4k-server-jetty"
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:${stdlibVersion}"
+  implementation "org.slf4j:slf4j-api:${slf4jVersion}"
+  implementation "org.slf4j:slf4j-nop:${slf4jVersion}"
+  testImplementation "com.ubertob.pesticide:pesticide-core:${pesticideVersion}"
+  testImplementation "io.ktor:ktor-server-test-host:${ktorVersion}"
+  testImplementation "io.strikt:strikt-core:${striktVersion}"
+  testImplementation "org.http4k:http4k-client-jetty:${http4kVersion}"
+  testImplementation "org.http4k:http4k-testing-hamkrest"
+  testImplementation "org.jetbrains.kotlin:kotlin-test:${kotlinVersion}"
+  testImplementation "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+  testRuntimeOnly "org.junit.platform:junit-platform-launcher:${junitLauncherVersion}"
+}
+
+tasks {
+  test {
+    useJUnitPlatform()
+    testLogging {
+      events "passed", "skipped", "failed"
+    }
+    testLogging.showStandardStreams = false
+    outputs.upToDateWhen { false }
+  }
+}
