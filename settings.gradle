@@ -2,10 +2,18 @@ plugins {
   id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
 }
 
+def module(String group, String name) {
+  include name
+  project(":$name").projectDir = file("$group/$name")
+}
+
 rootProject.name = 'zettai'
+
 include('app')
 include('hello')
 include('list')
 include('stage_http')
 include('utilities')
 include('welcome')
+
+module("snippets", "e2e")

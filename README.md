@@ -50,6 +50,7 @@
 [48]: https://jetty.org/docs/index.html
 [49]: https://github.com/http4k/http4k
 [50]: https://github.com/http4k/examples/tree/master
-[51]: https://kotlin.libhunt.com/graphql-kotlin-alternatives
+[51]: https://jadarma.github.io/blog/posts/2024/03/parallel-integration-tests-with-ktor/
+[52]: https://kotlin.libhunt.com/graphql-kotlin-alternatives
 
 #### 1 June 2024 by Oleg G.Kapranov

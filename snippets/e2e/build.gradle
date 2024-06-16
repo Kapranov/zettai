@@ -1,0 +1,22 @@
+plugins {
+  id 'org.jetbrains.kotlin.jvm'
+  id 'buildlogic.kotlin-application-conventions'
+}
+
+repositories {
+  mavenCentral()
+  maven {
+    url = uri('https://maven.pkg.jetbrains.space/public/p/ktor/eap')
+  }
+}
+
+kotlin {
+  jvmToolchain(11)
+}
+
+dependencies {
+  implementation "junit:junit:${junitUnitVersion}"
+  api "io.ktor:ktor-server-core:${ktorVersion}"
+  api "io.ktor:ktor-server-cio:${ktorVersion}"
+  api "io.ktor:ktor-server-host-common:${ktorVersion}"
+}

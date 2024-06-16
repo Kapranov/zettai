@@ -1,8 +1,8 @@
-package sample
+package http.stories
 
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import sample.plugins.*
+import http.stories.plugins.*
 
 fun main() {
   embeddedServer(

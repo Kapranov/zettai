@@ -1,7 +1,5 @@
-package sample
+package http.stories
 
-import io.ktor.client.*
-import io.ktor.client.call.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
@@ -9,13 +7,12 @@ import io.ktor.server.config.*
 import io.ktor.server.testing.*
 import kotlin.test.assertContains
 import kotlin.test.assertEquals
-import kotlinx.coroutines.runBlocking
 import org.junit.jupiter.api.Test as test
-import sample.plugins.*
+import http.stories.plugins.*
 
-class SampleTest {
+class SeeTodoListTest {
   @test
-  fun helloWorldTest() = testApplication {
+  fun storiesTest() = testApplication {
     application {
       configureRouting()
     }
@@ -28,15 +25,10 @@ class SampleTest {
           "ktor.environment" to "test"
       )
     }
-    val response = client.get("/sample")
+    val response = client.get("/stories")
     val body = response.bodyAsText()
     assertEquals(HttpStatusCode.OK, response.status)
-    assertEquals("Aloha Sample World!", body)
-    assertContains("Aloha Sample World!", body)
-  }
-  @test
-  fun respondsWithSampleWorldString(): Unit = runBlocking {
-    val response: String = HttpClient().get("http://127.0.0.1:8080/sample").body()
-    assertEquals("Aloha Sample World!", response)
+    assertEquals("Aloha Stories World!", body)
+    assertContains("Aloha Stories World!", body)
   }
 }
