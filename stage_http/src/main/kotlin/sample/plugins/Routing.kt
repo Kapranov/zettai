@@ -1,13 +1,14 @@
 package sample.plugins
 
-import io.ktor.server.routing.*
 import io.ktor.server.application.*
+import io.ktor.server.request.*
 import io.ktor.server.response.*
+import io.ktor.server.routing.*
 
 fun Application.configureRouting() {
   routing {
     get("/sample") {
-      call.respondText("Aloha Sample World!")
+      call.respondText("Aloha Sample World! - ${call.request.httpVersion}")
     }
   }
 }

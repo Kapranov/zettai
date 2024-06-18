@@ -31,12 +31,12 @@ class SampleTest {
     val response = client.get("/sample")
     val body = response.bodyAsText()
     assertEquals(HttpStatusCode.OK, response.status)
-    assertEquals("Aloha Sample World!", body)
-    assertContains("Aloha Sample World!", body)
+    assertEquals("Aloha Sample World! - HTTP/1.1", body)
+    assertContains("Aloha Sample World! - HTTP/1.1", body)
   }
   @test
   fun respondsWithSampleWorldString(): Unit = runBlocking {
     val response: String = HttpClient().get("http://127.0.0.1:8080/sample").body()
-    assertEquals("Aloha Sample World!", response)
+    assertEquals("Aloha Sample World! - HTTP/1.1", response)
   }
 }
