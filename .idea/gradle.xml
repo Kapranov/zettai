@@ -25,6 +25,7 @@
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/hello" />
             <option value="$PROJECT_DIR$/list" />
+            <option value="$PROJECT_DIR$/snippets/e2e" />
             <option value="$PROJECT_DIR$/stage_http" />
             <option value="$PROJECT_DIR$/utilities" />
             <option value="$PROJECT_DIR$/welcome" />
