@@ -1,4 +1,4 @@
-package http.embedded_auth_basic_hashed
+package http.embedded_auth_hashed
 
 import io.ktor.server.application.*
 import io.ktor.server.auth.*

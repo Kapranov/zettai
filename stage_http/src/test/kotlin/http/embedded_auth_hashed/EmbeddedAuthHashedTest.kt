@@ -1,4 +1,4 @@
-package http.embedded_auth_basic_hashed
+package http.embedded_auth_hashed
 
 import io.ktor.client.plugins.*
 import io.ktor.client.request.*
@@ -13,7 +13,7 @@ import java.util.*
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class EmbeddedAuthBasiciHashedTest {
+class EmbeddedAuthHashedTest {
   @Test
   fun testAuthRoute() = testApplication {
     application {
