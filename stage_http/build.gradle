@@ -28,6 +28,7 @@ dependencies {
   testImplementation "org.http4k:http4k-testing-hamkrest"
   testImplementation "org.jetbrains.kotlin:kotlin-test:${kotlinVersion}"
   testImplementation "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+  testImplementation("io.ktor:ktor-client-auth:${ktorVersion}")
   testRuntimeOnly "org.junit.platform:junit-platform-launcher:${junitLauncherVersion}"
 }
 
