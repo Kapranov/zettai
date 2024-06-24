@@ -1,6 +1,7 @@
 plugins {
   id 'java-library'
   id 'buildlogic.kotlin-application-conventions'
+  id 'org.jetbrains.kotlin.plugin.serialization' version '2.0.0'
 }
 
 repositories {
@@ -13,23 +14,34 @@ kotlin {
 
 dependencies {
   implementation platform("org.http4k:http4k-bom:${http4kVersion}")
+  implementation "io.ktor:ktor-client-cio:${ktorVersion}"
+  implementation "io.ktor:ktor-client-content-negotiation:${ktorVersion}"
+  implementation "io.ktor:ktor-client-core:${ktorVersion}"
+  implementation "io.ktor:ktor-serialization-kotlinx-json:${ktorVersion}"
+  implementation "io.ktor:ktor-serialization-kotlinx-json:${ktorVersion}"
+  implementation "io.ktor:ktor-server-auth:${ktorVersion}"
   implementation "io.ktor:ktor-server-core:${ktorVersion}"
+  implementation "io.ktor:ktor-server-html-builder:${ktorVersion}"
   implementation "io.ktor:ktor-server-netty:${ktorVersion}"
-  implementation("io.ktor:ktor-server-auth:${ktorVersion}")
+  implementation "io.ktor:ktor-server-sessions:${ktorVersion}"
   implementation "org.http4k:http4k-core"
   implementation "org.http4k:http4k-server-jetty"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:${stdlibVersion}"
+  implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:${kotlinxSerializationVersion}"
   implementation "org.slf4j:slf4j-api:${slf4jVersion}"
   implementation "org.slf4j:slf4j-nop:${slf4jVersion}"
   testImplementation "com.ubertob.pesticide:pesticide-core:${pesticideVersion}"
+  testImplementation "io.ktor:ktor-client-auth:${ktorVersion}"
+  testImplementation "io.ktor:ktor-server-content-negotiation:${ktorVersion}"
   testImplementation "io.ktor:ktor-server-test-host:${ktorVersion}"
   testImplementation "io.strikt:strikt-core:${striktVersion}"
   testImplementation "org.http4k:http4k-client-jetty:${http4kVersion}"
   testImplementation "org.http4k:http4k-testing-hamkrest"
   testImplementation "org.jetbrains.kotlin:kotlin-test:${kotlinVersion}"
   testImplementation "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
-  testImplementation("io.ktor:ktor-client-auth:${ktorVersion}")
   testRuntimeOnly "org.junit.platform:junit-platform-launcher:${junitLauncherVersion}"
+
+
 }
 
 tasks {

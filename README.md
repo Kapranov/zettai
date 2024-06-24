@@ -52,5 +52,13 @@
 [50]: https://github.com/http4k/examples/tree/master
 [51]: https://jadarma.github.io/blog/posts/2024/03/parallel-integration-tests-with-ktor/
 [52]: https://kotlin.libhunt.com/graphql-kotlin-alternatives
+[53]: https://github.com/marcelkliemannel/kotlin-onetimepassword
+[54]: https://github.com/marcelkliemannel/kotlin-onetimepassword/blob/master/src/main/kotlin/dev/turingcomplete/kotlinonetimepassword/GoogleAuthenticator.kt
+[55]: https://medium.com/@teo.vladusic/google-oauth2-with-kotlin-android-credential-manager-ktor-8bfea37c5861
+[56]: https://proandroiddev.com/integrating-google-sign-in-into-kotlin-multiplatform-8381c189a891
+[57]: https://www.youtube.com/watch?v=dO_VdcEG4z8
+[58]: https://www.mongodb.com/docs/atlas/device-sdks/sdk/kotlin/users/authenticate-users/
+[59]: https://www.journeytoawebapp.com/posts/oauth-google-kotlin
+[60]: https://auth0.com/blog/get-started-with-android-authentication-using-kotlin-part-1/
 
 #### 1 June 2024 by Oleg G.Kapranov
