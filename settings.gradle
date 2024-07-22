@@ -10,6 +10,7 @@ def module(String group, String name) {
 rootProject.name = 'zettai'
 
 include('app')
+include('exercises')
 include('hello')
 include('list')
 include('stage_http')
