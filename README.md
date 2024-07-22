@@ -60,5 +60,21 @@
 [58]: https://www.mongodb.com/docs/atlas/device-sdks/sdk/kotlin/users/authenticate-users/
 [59]: https://www.journeytoawebapp.com/posts/oauth-google-kotlin
 [60]: https://auth0.com/blog/get-started-with-android-authentication-using-kotlin-part-1/
+[61]: https://codersee.com/secure-rest-api-with-ktor-jwt-access-tokens/
+[62]: https://github.com/codersee-blog/kotlin-ktor-jwt-access-tokens-authentication/tree/main
+[63]: https://medium.com/hyperskill/creating-your-reactive-rest-api-with-kotlin-and-ktor-part-iii-ae9803bca99a
+[64]: https://github.com/joseluisgs/ktor-reactive-rest-hyperskill
+[65]: https://github.com/Kotlin/kotlinx.serialization
+[66]: https://hyperskill.org/learn/step/33383
+[67]: https://youtrack.jetbrains.com/issue/KTOR-4875
+[68]: https://youtrack.jetbrains.com/issue/KTOR-4426
+[69]: https://youtrack.jetbrains.com/issue/KTOR-6441/Js-engine-Receiving-response-with-empty-body-as-null-triggers-JsonConvertException
+[70]: https://stackoverflow.com/questions/71236664/how-can-i-add-headers-to-ktor-request-if-i-use-submitformwithbinarydata
+[71]: https://stackoverflow.com/questions/77521743/how-to-test-ktor-host-routing
+[72]: https://github.com/AndreasVolkmann/ktor-auth-jwt-sample/tree/master
+[73]: https://gist.github.com/NyCodeGHG/12e8eddfd53e1f4d8e44b79957c1e319
+[74]: https://github.com/joseluisgs/ktor-reactive-rest-hyperskill
+[75]: https://caelis.medium.com/ktor-send-and-receive-json-6c41c64410af
+[76]: https://medium.com/@niranjanky14/ktor-how-to-add-headers-to-your-request-942eb5475e44
 
 #### 1 June 2024 by Oleg G.Kapranov

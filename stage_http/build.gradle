@@ -18,12 +18,14 @@ dependencies {
   implementation "io.ktor:ktor-client-content-negotiation:${ktorVersion}"
   implementation "io.ktor:ktor-client-core:${ktorVersion}"
   implementation "io.ktor:ktor-serialization-kotlinx-json:${ktorVersion}"
-  implementation "io.ktor:ktor-serialization-kotlinx-json:${ktorVersion}"
+  implementation "io.ktor:ktor-server-auth-jwt:${ktorVersion}"
   implementation "io.ktor:ktor-server-auth:${ktorVersion}"
+  implementation "io.ktor:ktor-server-content-negotiation:${ktorVersion}"
   implementation "io.ktor:ktor-server-core:${ktorVersion}"
   implementation "io.ktor:ktor-server-html-builder:${ktorVersion}"
   implementation "io.ktor:ktor-server-netty:${ktorVersion}"
   implementation "io.ktor:ktor-server-sessions:${ktorVersion}"
+  implementation "io.ktor:ktor-serialization-kotlinx-json:${ktorVersion}"
   implementation "org.http4k:http4k-core"
   implementation "org.http4k:http4k-server-jetty"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:${stdlibVersion}"
@@ -32,6 +34,7 @@ dependencies {
   implementation "org.slf4j:slf4j-nop:${slf4jVersion}"
   testImplementation "com.ubertob.pesticide:pesticide-core:${pesticideVersion}"
   testImplementation "io.ktor:ktor-client-auth:${ktorVersion}"
+  testImplementation "io.ktor:ktor-client-json:${ktorVersion}"
   testImplementation "io.ktor:ktor-server-content-negotiation:${ktorVersion}"
   testImplementation "io.ktor:ktor-server-test-host:${ktorVersion}"
   testImplementation "io.strikt:strikt-core:${striktVersion}"
@@ -40,8 +43,6 @@ dependencies {
   testImplementation "org.jetbrains.kotlin:kotlin-test:${kotlinVersion}"
   testImplementation "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
   testRuntimeOnly "org.junit.platform:junit-platform-launcher:${junitLauncherVersion}"
-
-
 }
 
 tasks {
