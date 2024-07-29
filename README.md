@@ -76,5 +76,41 @@
 [74]: https://github.com/joseluisgs/ktor-reactive-rest-hyperskill
 [75]: https://caelis.medium.com/ktor-send-and-receive-json-6c41c64410af
 [76]: https://medium.com/@niranjanky14/ktor-how-to-add-headers-to-your-request-942eb5475e44
+[77]: https://medium.com/@midoripig1009/working-with-json-in-kotlin-parsing-and-serialization-a62300ec43b8
+[78]: https://stackoverflow.com/questions/64537233/how-do-i-parse-a-response-with-ktor
+[79]: https://stackoverflow.com/questions/41928803/how-to-parse-json-in-kotlin
+
+https://stackoverflow.com/questions/44905012/method-hashmapof-in-kotlin
+https://caelis.medium.com/ktor-send-and-receive-json-6c41c64410af
+https://github.com/AndreasVolkmann/ktor-auth-jwt-sample/blob/master/src/test/kotlin/me/avo/io/ktor/auth/jwt/sample/ServerTest.kt
+https://gist.github.com/NyCodeGHG/12e8eddfd53e1f4d8e44b79957c1e319
+
+https://github.com/uberto/pesticide
+https://medium.com/javarevisited/beyond-traditional-acceptance-tests-79cbcee63eda
+https://github.com/joseluisgs/ktor-reactive-rest-hyperskill/blob/main/src/main/resources/application.conf
+https://medium.com/hyperskill/creating-your-reactive-rest-api-with-kotlin-and-ktor-part-iii-ae9803bca99a
+https://stackoverflow.com/questions/72317906/ktor-unit-testing-is-throwing-404
+https://habr.com/ru/articles/705480/
+https://github.com/Baeldung/kotlin-tutorials/tree/master
+https://javarush.com/help/89874
+https://github.com/mockk/mockk/issues/147
+https://gist.github.com/TomyJaya/7c0cbbf4d6396d6d4ee9
+https://stackoverflow.com/questions/74276037/gradle-where-is-api-for-kotlin-dsl
+https://www.baeldung.com/kotlin/kotlin-logging-library
+https://github.com/OpenAPITools/openapi-generator/issues/14113
+https://www.baeldung.com/kotlin/logging
+https://slack-chats.kotlinlang.org/t/451206/we-still-use-slf4j-logback-in-our-kotlin-code-currently-we-d
+https://stackoverflow.com/questions/54652836/found-slf4j-api-dependency-but-no-providers-were-found
+https://coderanch.com/t/777120/java/SLF-SLF-providers
+https://youtrack.jetbrains.com/issue/KT-54819
+https://github.com/jlib-framework/jlib-awslambda-logback/issues/2
+https://www.slf4j.org/faq.html#changesInVersion200
+https://www.slf4j.org/codes.html#noProviders
+https://habr.com/ru/articles/346452/
+https://github.com/junit-team/junit5/issues/2652
+
+https://www.programiz.com/kotlin-programming/hello-world
+https://gist.github.com/in28minutes/b6d9e5737bf0a3c657188e36287eb6b7
+
 
 #### 1 June 2024 by Oleg G.Kapranov
