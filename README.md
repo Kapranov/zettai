@@ -79,6 +79,49 @@
 [77]: https://medium.com/@midoripig1009/working-with-json-in-kotlin-parsing-and-serialization-a62300ec43b8
 [78]: https://stackoverflow.com/questions/64537233/how-do-i-parse-a-response-with-ktor
 [79]: https://stackoverflow.com/questions/41928803/how-to-parse-json-in-kotlin
+[80]: https://github.com/sumelio/kotlin-andThen/tree/master
+[81]: https://medium.com/@nicolas.duponchel/having-fun-with-rxkotlin-8508cdfee214
+[82]: https://medium.com/@mobiledev4you/concept-of-function-composition-in-kotlin-f3c3ea4d2649
+[83]: https://www.lambdatest.com/learning-hub/kotlin-unit-testing
+[84]: https://stackoverflow.com/questions/76219951/how-to-add-andthen-operator-under-condition-or-inside-a-loop-rx-kotlin
+[85]: www.fusion-reactor.com/blog/how-to-fix-an-array-index-out-of-bounds-exception-in-java/
+[86]: https://stackoverflow.com/questions/66398691/how-to-solve-index-7-out-of-bounds-for-length-7-in-kotlin
+[87]: https://stackoverflow.com/questions/7362158/how-to-use-java-net-uri
+[88]: https://kotlinlang.org/docs/collection-elements.html
+[89]: https://kotlinlang.org/docs/list-operations.html
+[90]: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/
+
+### Kafka implement
+
+https://aerospike.com/docs/connect/streaming/formats/kafka-avro-serialization-format
+https://aseigneurin.github.io/2018/08/01/kafka-tutorial-1-simple-producer-in-kotlin.html
+https://aseigneurin.github.io/2018/08/01/kafka-tutorial-2-simple-consumer-in-kotlin.html
+https://dev.to/magnuspedro/setting-up-spring-kafka-with-kotlin-53ea
+https://developer.confluent.io/tutorials/
+https://developer.confluent.io/tutorials/
+https://discuss.kotlinlang.org/t/classloading-error-with-kafka-streams/4547
+https://discuss.kotlinlang.org/t/microservice-with-ktor-and-kafka/29203
+https://docs.confluent.io/platform/current/clients/examples/kotlin.html
+https://github.com/aseigneurin/kafka-tutorial-simple-client/tree/master
+https://github.com/avro-kotlin/avro4k
+https://github.com/confluentinc/cp-demo
+https://github.com/confluentinc/cp-demo/tree/7.5.1-post/kstreams-app
+https://github.com/confluentinc/examples
+https://github.com/confluentinc/examples/tree/7.5.0-post/clients/cloud/kotlin
+https://github.com/nomisRev/kotlin-kafka
+https://github.com/streamthoughts/kafka-clients-kotlin
+https://guides.micronaut.io/latest/micronaut-kafka-maven-kotlin.html
+https://habr.com/ru/articles/492312/
+https://habr.com/ru/companies/otus/articles/510788/
+https://hub.docker.com/r/confluentinc/cp-kafka/
+https://lankydan.dev/kafka-producer-and-consumer-written-with-kotlin
+https://sylhare.github.io/2023/09/15/Kafka-with-springboot-in-kotlin.html
+https://www.baeldung.com/kotlin/apache-kafka
+https://www.youtube.com/watch?v=6qxkawU0qKA
+https://www.youtube.com/watch?v=E8CtE7qTb-Q
+https://www.youtube.com/watch?v=Y-sqGKsnSHI
+
+### Others
 
 https://stackoverflow.com/questions/44905012/method-hashmapof-in-kotlin
 https://caelis.medium.com/ktor-send-and-receive-json-6c41c64410af

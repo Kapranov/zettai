@@ -1,0 +1,29 @@
+plugins {
+  id 'buildlogic.kotlin-application-conventions'
+}
+
+repositories {
+  mavenCentral()
+}
+
+kotlin {
+  jvmToolchain(11)
+}
+
+dependencies {
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:${stdlibVersion}"
+  implementation "com.github.javafaker:javafaker:${javafakerVersion}"
+  implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonModuleVersion}"
+  implementation "com.fasterxml.jackson.module:jackson-module-kotlin:${jacksonModuleVersion}"
+  implementation "org.apache.kafka:kafka-clients:${kafkaClientsVersion}"
+  implementation "com.github.avro-kotlin.avro4k:avro4k-core:${avro4kVersion}"
+  testImplementation "io.strikt:strikt-core:${striktVersion}"
+  testImplementation "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+  testRuntimeOnly "org.junit.platform:junit-platform-launcher:${junitLauncherVersion}"
+}
+
+tasks {
+  test {
+    useJUnitPlatform()
+  }
+}
